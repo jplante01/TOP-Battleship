@@ -10,6 +10,7 @@
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
+    "ignorePatterns": ["/src/*.test.js"],
     "rules": {
         "no-console": "off",
         "quotes": "off"
