@@ -15,11 +15,11 @@ it('Throws error if length parameter is <= 0', () => {
 
 it('isSunk() method responds with correct boolean value after hits', () => {
   const testShip = Ship(4);
-  expect(testShip.isSunk()).toBe(true);
+  expect(testShip.isSunk()).toBe(false);
 
   for (i = 0; i < 4; i++) {
     testShip.hit();
   }
   
-  expect(testShip.isSunk).toBe(true);
+  expect(testShip.isSunk()).toBe(true);
 })

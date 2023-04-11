@@ -1,4 +1,4 @@
 import Ship from './Ship';
+import Gameboard from './Gameboard';
 
-const lucy = Ship(4);
-console.log(['lucy:', lucy]);
+let board = Gameboard();
